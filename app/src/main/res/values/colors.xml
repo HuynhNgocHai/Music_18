@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="background_toolbar">#e3333333</color>
+    <color name="background_tablayout">#c8c8c9</color>
+    <color name="tabSelectedTextColor">#e66d6d</color>
+    <color name="tabTextColor">#7c6854</color>
+
 </resources>
