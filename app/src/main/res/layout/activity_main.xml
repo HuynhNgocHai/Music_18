@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,13 +8,13 @@
     tools:context="com.framgia.music_18.screen.main.MainActivity">
 
     <android.support.design.widget.TabLayout
-        android:background="@color/background_tablayout"
+        android:background="@color/color_white"
         android:layout_alignParentTop="true"
         android:id="@+id/tab_layout"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/layout_height_tablayout"
-        app:tabSelectedTextColor="@color/tabSelectedTextColor"
-        app:tabTextColor="@color/tabTextColor">
+        android:layout_height="@dimen/dp_48"
+        app:tabSelectedTextColor="@color/color_orange"
+        app:tabTextColor="@color/color_gray">
 
     </android.support.design.widget.TabLayout>
 
@@ -25,4 +26,4 @@
 
     </android.support.v4.view.ViewPager>
 
-</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
